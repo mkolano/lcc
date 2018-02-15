@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{0564CB38-1BB8-4CFE-9122-D3808B81E560}</ProjectGuid>
-    <RootNamespace>cpp</RootNamespace>
+    <ProjectGuid>{1CB0A545-50DA-46C0-959D-0ABB72C8640D}</ProjectGuid>
+    <RootNamespace>CPUs</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -74,10 +74,11 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <SDLCheck>false</SDLCheck>
-      <BufferSecurityCheck>false</BufferSecurityCheck>
-      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
     </ClCompile>
+    <CustomBuildStep>
+      <Command>$(TargetDir)lburg </Command>
+    </CustomBuildStep>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -113,19 +114,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\cpp\cpp.c" />
-    <ClCompile Include="..\..\cpp\eval.c" />
-    <ClCompile Include="..\..\cpp\getopt.c" />
-    <ClCompile Include="..\..\cpp\hideset.c" />
-    <ClCompile Include="..\..\cpp\include.c" />
-    <ClCompile Include="..\..\cpp\lex.c" />
-    <ClCompile Include="..\..\cpp\macro.c" />
-    <ClCompile Include="..\..\cpp\nlist.c" />
-    <ClCompile Include="..\..\cpp\tokens.c" />
-    <ClCompile Include="..\..\cpp\unix.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\cpp\cpp.h" />
+    <None Include="..\..\src\CPUs\alpha.md" />
+    <None Include="..\..\src\CPUs\dagcheck.md" />
+    <None Include="..\..\src\CPUs\mips.md" />
+    <None Include="..\..\src\CPUs\sparc.md" />
+    <None Include="..\..\src\CPUs\x86.md" />
+    <None Include="..\..\src\CPUs\x86linux.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

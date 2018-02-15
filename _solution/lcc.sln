@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lburg", "lburg\lburg.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lcc", "lcc\lcc.vcxproj", "{0BE85C8D-161A-487D-9328-CBA67544B881}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPUs", "CPUs\CPUs.vcxproj", "{1CB0A545-50DA-46C0-959D-0ABB72C8640D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{0BE85C8D-161A-487D-9328-CBA67544B881}.Release|x64.Build.0 = Release|x64
 		{0BE85C8D-161A-487D-9328-CBA67544B881}.Release|x86.ActiveCfg = Release|Win32
 		{0BE85C8D-161A-487D-9328-CBA67544B881}.Release|x86.Build.0 = Release|Win32
+		{1CB0A545-50DA-46C0-959D-0ABB72C8640D}.Debug|x64.ActiveCfg = Debug|x64
+		{1CB0A545-50DA-46C0-959D-0ABB72C8640D}.Debug|x64.Build.0 = Debug|x64
+		{1CB0A545-50DA-46C0-959D-0ABB72C8640D}.Debug|x86.ActiveCfg = Debug|Win32
+		{1CB0A545-50DA-46C0-959D-0ABB72C8640D}.Debug|x86.Build.0 = Debug|Win32
+		{1CB0A545-50DA-46C0-959D-0ABB72C8640D}.Release|x64.ActiveCfg = Release|x64
+		{1CB0A545-50DA-46C0-959D-0ABB72C8640D}.Release|x64.Build.0 = Release|x64
+		{1CB0A545-50DA-46C0-959D-0ABB72C8640D}.Release|x86.ActiveCfg = Release|Win32
+		{1CB0A545-50DA-46C0-959D-0ABB72C8640D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
