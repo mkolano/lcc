@@ -77,7 +77,8 @@
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <CustomBuildStep>
-      <Command>$(TargetDir)lburg </Command>
+      <Command>
+      </Command>
     </CustomBuildStep>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">

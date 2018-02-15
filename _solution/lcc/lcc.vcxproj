@@ -115,6 +115,12 @@
     <ClCompile Include="..\..\src\alloc.c" />
     <ClCompile Include="..\..\src\bind.c" />
     <ClCompile Include="..\..\src\bytecode.c" />
+    <ClCompile Include="..\..\src\CPUs\proc_alpha.c" />
+    <ClCompile Include="..\..\src\CPUs\proc_dagcheck.c" />
+    <ClCompile Include="..\..\src\CPUs\proc_mips.c" />
+    <ClCompile Include="..\..\src\CPUs\proc_sparc.c" />
+    <ClCompile Include="..\..\src\CPUs\proc_x86.c" />
+    <ClCompile Include="..\..\src\CPUs\proc_x86linux.c" />
     <ClCompile Include="..\..\src\dag.c" />
     <ClCompile Include="..\..\src\decl.c" />
     <ClCompile Include="..\..\src\enode.c" />

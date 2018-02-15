@@ -102,6 +102,24 @@
     <ClCompile Include="..\..\src\alloc.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\src\CPUs\proc_x86linux.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\CPUs\proc_alpha.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\CPUs\proc_dagcheck.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\CPUs\proc_mips.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\CPUs\proc_sparc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\CPUs\proc_x86.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\src\stab.h">
